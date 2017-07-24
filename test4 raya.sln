@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test4 raya.Plugins", "test4 raya.Plugins.csproj", "{9D2B20EB-7747-FF2B-441F-F854D2CF9A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test4 raya", "test4 raya.csproj", "{DE619256-4B53-1CCE-4A19-054055E5DC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test4 raya.Editor.Plugins", "test4 raya.Editor.Plugins.csproj", "{A0F1E1DC-9ADC-5D33-9D8D-487D3F48E84F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D2B20EB-7747-FF2B-441F-F854D2CF9A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2B20EB-7747-FF2B-441F-F854D2CF9A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2B20EB-7747-FF2B-441F-F854D2CF9A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2B20EB-7747-FF2B-441F-F854D2CF9A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE619256-4B53-1CCE-4A19-054055E5DC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE619256-4B53-1CCE-4A19-054055E5DC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE619256-4B53-1CCE-4A19-054055E5DC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE619256-4B53-1CCE-4A19-054055E5DC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F1E1DC-9ADC-5D33-9D8D-487D3F48E84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F1E1DC-9ADC-5D33-9D8D-487D3F48E84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F1E1DC-9ADC-5D33-9D8D-487D3F48E84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F1E1DC-9ADC-5D33-9D8D-487D3F48E84F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
