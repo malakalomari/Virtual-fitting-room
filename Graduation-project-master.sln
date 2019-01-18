@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graduation-project-master.Plugins", "Graduation-project-master.Plugins.csproj", "{B64933E8-EDBA-A2DB-BF01-7A6913464EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graduation-project-master", "Graduation-project-master.csproj", "{F016CF64-00BD-1DCB-C8C4-6841BFE16164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graduation-project-master.Editor.Plugins", "Graduation-project-master.Editor.Plugins.csproj", "{4B283C09-A05C-DE78-53B4-F1F263B4F410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64933E8-EDBA-A2DB-BF01-7A6913464EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64933E8-EDBA-A2DB-BF01-7A6913464EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64933E8-EDBA-A2DB-BF01-7A6913464EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64933E8-EDBA-A2DB-BF01-7A6913464EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F016CF64-00BD-1DCB-C8C4-6841BFE16164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F016CF64-00BD-1DCB-C8C4-6841BFE16164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F016CF64-00BD-1DCB-C8C4-6841BFE16164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F016CF64-00BD-1DCB-C8C4-6841BFE16164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B283C09-A05C-DE78-53B4-F1F263B4F410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B283C09-A05C-DE78-53B4-F1F263B4F410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B283C09-A05C-DE78-53B4-F1F263B4F410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B283C09-A05C-DE78-53B4-F1F263B4F410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
