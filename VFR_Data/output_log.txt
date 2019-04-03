@@ -1,0 +1,30 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   21.20.16.4627
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\ICSharpCode.SharpZipLib.dll into Unity Child Domain
+- Completed reload, in  0.218 seconds
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 2732x768 at -1366,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.

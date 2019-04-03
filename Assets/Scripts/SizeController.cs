@@ -8,10 +8,11 @@ public class SizeController : MonoBehaviour {
 
 	public void Plus ()
 	{
-		currentObject.transform.localScale += new Vector3(0.5f, 0, 0.5f);
+		currentObject.transform.localScale += new Vector3(0.2f, 0.2f, 0);
 	}
 	public void Minus ()
 	{
-		currentObject.transform.localScale -= new Vector3(0.1f, 0, 0.1f);
+		currentObject.transform.localScale -= new Vector3(0.2f, 0.2f, 0);
+        print(this.currentObject);
 	}
 }

@@ -1,0 +1,45 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   24.20.100.6286
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\ICSharpCode.SharpZipLib.dll into Unity Child Domain
+- Completed reload, in  0.325 seconds
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Khalil\Desktop\Demos\Graduation-project-master\Graduation-project-master\VFR-M_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.779360 ms
+Failed to load 'C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Plugins/Project1.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 140)
+
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/Project1
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/.\Project1
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/Project1
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/libProject1
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/.\libProject1
+Fallback handler could not load library C:/Users/Khalil/Desktop/Demos/Graduation-project-master/Graduation-project-master/VFR-M_Data/Mono/libProject1
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3768 -> priority: 1 
+  Thread -> id: 1ab0 -> priority: 1 

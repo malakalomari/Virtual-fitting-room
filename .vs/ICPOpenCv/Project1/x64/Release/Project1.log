@@ -1,8 +1,11 @@
 ﻿  icp.cpp
-     Creating library C:\Users\Khalil\Documents\Visual Studio 2017\Projects\Project1\x64\Release\Project1.lib and object C:\Users\Khalil\Documents\Visual Studio 2017\Projects\Project1\x64\Release\Project1.exp
+  Source.cpp_n
+c:\users\khalil\desktop\graduation-project-master\graduation-project-master\.vs\icpopencv\project1\source.cpp_n(33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\khalil\desktop\graduation-project-master\graduation-project-master\.vs\icpopencv\project1\source.cpp_n(34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\Khalil\Desktop\Graduation-project-master\Graduation-project-master\.vs\ICPOpenCv\x64\Release\Project1.lib and object C:\Users\Khalil\Desktop\Graduation-project-master\Graduation-project-master\.vs\ICPOpenCv\x64\Release\Project1.exp
   Generating code
-  1 of 155 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  0 of 153 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Project1.vcxproj -> C:\Users\Khalil\Documents\Visual Studio 2017\Projects\Project1\x64\Release\Project1.exe
+  Project1.vcxproj -> C:\Users\Khalil\Desktop\Graduation-project-master\Graduation-project-master\.vs\ICPOpenCv\x64\Release\Project1.dll

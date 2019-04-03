@@ -90,6 +90,7 @@ public class BodySourceManager : MonoBehaviour
 	                    {
 	                        this.bodyOrder.Add(body.TrackingId);
 	                        this.bodies[body.TrackingId] = body;
+                            Debug.Log(body.TrackingId);
 	                    }
 	                }
 				}

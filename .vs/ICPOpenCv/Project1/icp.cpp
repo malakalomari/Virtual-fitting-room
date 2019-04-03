@@ -19,13 +19,13 @@ extern "C" void __declspec(dllexport) __stdcall icpGetCurrentICPModel(double Mod
 	Mat DataPoints = Mat::zeros(3, 3, CV_64FC1);
 
 	for (int i = 0; i < 3; i++) {
-		ModelPoints.at<double>(i, 0) = ModelPointsArr[i][0];
-		ModelPoints.at<double>(i, 1) = ModelPointsArr[i][1];
-		ModelPoints.at<double>(i, 2) = ModelPointsArr[i][2];
+		ModelPoints.at<double>(0,i) = ModelPointsArr[0][i];
+		ModelPoints.at<double>(1,i) = ModelPointsArr[1][i];
+		ModelPoints.at<double>(2,i) = ModelPointsArr[2][i];
 
-		DataPoints.at<double>(i, 0) = DataPointsArr[i][0];
-		DataPoints.at<double>(i, 1) = DataPointsArr[i][1];
-		DataPoints.at<double>(i, 2) = DataPointsArr[i][2];
+		DataPoints.at<double>(0,i) = DataPointsArr[0][i];
+		DataPoints.at<double>(1,i) = DataPointsArr[1][i];
+		DataPoints.at<double>(2,i) = DataPointsArr[2][i];
 	}
 
 	//cout << "ModelPoints=\n" << ModelPoints << endl;
@@ -116,32 +116,52 @@ extern "C" void __declspec(dllexport) __stdcall icpGetCurrentICPModel(double Mod
 	cout << "R=\n" << R << endl;
 	cout << "T=\n" << T << endl;
 
+	cout << "det R=\n" << determinant(R) << endl;
+
 	Mat transformedToJoint = Mat::zeros(3, 1, CV_64FC1);
 	Mat pivotPoint = Mat::zeros(3, 1, CV_64FC1);
+	Mat modelPoint = Mat::zeros(3, 1, CV_64FC1);
 
 	// TransformedPoint = R * AnchorPoint + T
 	for (int i = 0; i < 3; i++) {
-		pivotPoint.at<double>(0, 0) = DataPointsArr[i][0];
-		pivotPoint.at<double>(1, 0) = DataPointsArr[i][1];
-		pivotPoint.at<double>(2, 0) = DataPointsArr[i][2];
-		cout << "P=\n" << pivotPoint << endl;
+		pivotPoint.at<double>(0, 0) = DataPointsArr[0][i];
+		pivotPoint.at<double>(1, 0) = DataPointsArr[1][i];
+		pivotPoint.at<double>(2, 0) = DataPointsArr[2][i];
+
+		modelPoint.at<double>(0, 0) = ModelPointsArr[0][i];
+		modelPoint.at<double>(1, 0) = ModelPointsArr[1][i];
+		modelPoint.at<double>(2, 0) = ModelPointsArr[2][i];
+
+		cout << "Pivot "<<i <<"=\n" << pivotPoint << endl;
 
 		transformedToJoint = R * pivotPoint + T;
 
-		cout << "t:\n" << transformedToJoint << endl;
-		transformedPointsArr[i][0] = transformedToJoint.at<double>(0, 0);
-		transformedPointsArr[i][1] = transformedToJoint.at<double>(1, 0);
-		transformedPointsArr[i][2] = transformedToJoint.at<double>(2, 0);
+		cout << "transformed pivot " << i << ":\n" << transformedToJoint << endl;
+
+		cout << "model " << i << "=\n" << modelPoint << endl;
+
+		cout << "Error " << i << "\n" << transformedToJoint - modelPoint << endl;
+	
+		transformedPointsArr[0][i] = transformedToJoint.at<double>(0, 0);
+		transformedPointsArr[1][i] = transformedToJoint.at<double>(1, 0);
+		transformedPointsArr[2][i] = transformedToJoint.at<double>(2, 0);
 	}
 }
 
-//
-
-
 int main()
 {
-	double ModelPointsArr[3][3] = { {0.05856052, - 0.2821604, 1.236075}, { 0.1929782, - 0.279166, 1.230189} , {0.06356425, - 0.5588056, 1.162657} };
-	double DataPointsArr[3][3] = { {-0.94875470, 3.581969, 744.605} , {-0.94875470, 3.858615, 744.605} , {-1.015964, 3.858615, 744.605} };
+	double ModelPointsArr[3][3] = {
+	{0.004785966 , 0.1325456,  0.2622803 },
+	{-0.3357168 , -0.3308465 , -0.4949186} ,
+	{1.650084   ,  1.650084 ,  1.650084} };
+
+
+	double DataPointsArr[3][3] = {
+	{1.70069651305676    , 1.28069667518139  , 1.70069722831249} ,
+	{-12.3507070094347   , -12.3507070094347, -6.26582713425159} ,
+	{700                 , 700              ,  700             } 
+	};
+
 	double transformedPointsArr[3][3];
 
 	icpGetCurrentICPModel(ModelPointsArr, DataPointsArr, transformedPointsArr);
